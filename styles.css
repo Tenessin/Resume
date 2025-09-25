@@ -41,3 +41,11 @@ h3{
     width: 7vh;
     border-radius: 1vh;
 }
+
+img{
+
+    border-radius: 2vh;
+    border: 0.2vh, black, solid;
+    height: 8vh;
+    width: 8vh;
+}
