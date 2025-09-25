@@ -1,9 +1,9 @@
-body{
+body {
     background-color: rgb(212, 195, 169);
     
 }
 
-.showcase{
+.showcase {
     
     background-color: antiquewhite;
     width: 190vh;
@@ -14,7 +14,7 @@ body{
     padding: 2%;
 }
 
-h1{
+h1 {
 
     font-size: 6vh; 
     margin-top: 0vh;
@@ -22,7 +22,7 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h2{
+h2 {
     font-style: inherit;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -30,22 +30,58 @@ h2{
 h3{
 
     margin-top: -2vh;
-    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.small_text {
+
+    margin-top: 0vh;
     font-style: inherit;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
-.skills{
 
-    background-color: rgb(205, 156, 156);
+.linkContainer{
+
+    display: flex;           /* включаем flexbox */
+    gap: 10px;              /* расстояние между блоками */
+    padding: 20px;   
+}
+
+.skills {
+
+    background-color: rgb(223, 156, 156);
     height: 4vh;
     width: 7vh;
     border-radius: 1vh;
+    border: 0.1vh, solid, rgb(3, 77, 22);
+    justify-content: left;
 }
 
-img{
+a {
+
+    border-radius: 2vh;
+    height: 8vh;
+    width: 8vh;  
+}
+
+img {
 
     border-radius: 2vh;
     border: 0.2vh, black, solid;
     height: 8vh;
     width: 8vh;
 }
+
+.divider{
+
+    display: flex;           
+}
+
+.half{
+
+    width: 95vh;
+    height: 86vh;   
+    justify-content: left;
+}
+
