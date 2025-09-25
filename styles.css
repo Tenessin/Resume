@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(212, 195, 169);
+    
+}
+
+.showcase{
+    
+    background-color: antiquewhite;
+    width: 190vh;
+    height: 86vh;
+    border-radius: 2vh;
+    margin: 0 3vh;
+    margin-top: 2vh;
+    padding: 2%;
+}
+
+h1{
+
+    font-size: 6vh; 
+    margin-top: 0vh;
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+
+    margin-top: -2vh;
+    text-align: center;
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.skills{
+
+    background-color: rgb(205, 156, 156);
+    height: 4vh;
+    width: 7vh;
+    border-radius: 1vh;
+}
